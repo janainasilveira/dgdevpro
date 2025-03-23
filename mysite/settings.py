@@ -25,9 +25,8 @@ SECRET_KEY = 'django-insecure-q98+1$ar7!(x1=wfr__llo5$#-tb0cm55%3k6nfeepct(c_=a*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
 # o manual do djangogirls recomenda a inclusão do pythonanywhere:
-# ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # assim (com *) libera o acesso para todo mundo:
 # ALLOWED_HOSTS = ['*'] 
 
