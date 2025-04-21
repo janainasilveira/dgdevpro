@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+
+        .door-frame {
+            width: 200px;
+            height: 400px;
+            background-color: #8B4513;
+            position: relative;
+            margin: 50px auto;
+        }
+
+        .door {
+            width: 100px;
+            height: 400px;
+            background-color: #4682B4;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .doorknob {
+            width: 20px;
+            height: 20px;
+            background-color: #FFD700;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 95%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+    <title>Porta em HTML</title>
+</head>
+<body>
+    <div class="door-frame">
+        <div class="door"></div>
+        <div class="doorknob"></div>
+    </div>
+    
+</body>
+</html>
